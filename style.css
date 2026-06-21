@@ -140,3 +140,27 @@ nav a:hover {
   background: #1e293b;
   color: #38bdf8;
 }
+
+cat >> ~/cyberPortfolio/style.css << 'EOF'
+
+.project-meta {
+  margin-bottom: 14px;
+}
+
+.project-meta .date {
+  color: #94a3b8;
+  font-size: 0.85em;
+  margin-right: 12px;
+}
+
+.project-meta .tag {
+  display: inline-block;
+  background: #0f172a;
+  color: #38bdf8;
+  font-size: 0.8em;
+  padding: 3px 10px;
+  border-radius: 12px;
+  margin-right: 6px;
+  border: 1px solid #334155;
+}
+EOF
