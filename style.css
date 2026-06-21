@@ -141,7 +141,6 @@ nav a:hover {
   color: #38bdf8;
 }
 
-cat >> ~/cyberPortfolio/style.css << 'EOF'
 
 .project-meta {
   margin-bottom: 14px;
@@ -163,7 +162,6 @@ cat >> ~/cyberPortfolio/style.css << 'EOF'
   margin-right: 6px;
   border: 1px solid #334155;
 }
-EOF
 
 .profile {
   text-align: center;
