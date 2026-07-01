@@ -340,3 +340,76 @@ footer{
     transform:scale(1.05);
     box-shadow:0 10px 25px rgba(0,0,0,.35);
 }
+
+/* ===========================
+   Kali Linux Terminal
+=========================== */
+
+.terminal{
+    max-width:900px;
+    margin:40px auto;
+    background:#0d1117;
+    border:1px solid #30363d;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 0 20px rgba(0,0,0,.5);
+}
+
+.terminal-header{
+    background:#21262d;
+    padding:12px 15px;
+    display:flex;
+    align-items:center;
+}
+
+.red,
+.yellow,
+.green{
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    display:inline-block;
+    margin-right:8px;
+}
+
+.red{
+    background:#ff5f56;
+}
+
+.yellow{
+    background:#ffbd2e;
+}
+
+.green{
+    background:#27c93f;
+}
+
+.title{
+    color:#c9d1d9;
+    margin-left:12px;
+    font-size:14px;
+}
+
+#terminal-text{
+    padding:25px;
+    color:#39ff14;
+    font-family:Consolas,monospace;
+    font-size:16px;
+    white-space:pre-wrap;
+    min-height:360px;
+    line-height:1.6;
+}
+
+.cursor{
+    animation:blink 1s infinite;
+}
+
+@keyframes blink{
+
+50%{
+
+opacity:0;
+
+}
+
+}
