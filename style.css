@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+} 
+
 * {
   box-sizing: border-box;
 }
@@ -292,4 +296,35 @@ section{
     width:100% !important;
     max-width:100% !important;
 }
+}
+
+footer{
+    background:#0b1220;
+    text-align:center;
+    padding:25px;
+    color:#94a3b8;
+    border-top:1px solid #334155;
+    margin-top:40px;
+}
+
+.top-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:45px;
+    height:45px;
+    background:#38bdf8;
+    color:#0f172a;
+    text-decoration:none;
+    font-size:24px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+    box-shadow:0 4px 10px rgba(0,0,0,.3);
+}
+
+.top-btn:hover{
+    background:#7dd3fc;
 }
