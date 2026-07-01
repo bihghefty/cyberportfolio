@@ -214,3 +214,87 @@ section.visible {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width:768px){
+
+header{
+    padding:40px 15px;
+}
+
+header h1{
+    font-size:2rem;
+}
+
+header p{
+    font-size:1rem;
+}
+
+.profile img{
+    width:140px;
+    height:140px;
+}
+
+nav{
+    flex-wrap:wrap;
+    gap:10px;
+    padding:12px;
+}
+
+nav a{
+    font-size:14px;
+    padding:8px 12px;
+}
+
+section{
+    padding:35px 15px;
+}
+
+.project{
+    padding:18px;
+}
+
+.project-gallery{
+    justify-content:center;
+}
+
+.project-gallery figure{
+    width:100%;
+}
+
+.project-gallery img{
+    width:100%;
+    height:auto;
+}
+
+.project-gallery figcaption{
+    width:100%;
+}
+
+.project-meta .tag{
+    display:inline-block;
+    margin-top:6px;
+    margin-bottom:6px;
+}
+
+.cv-button{
+    width:100%;
+    text-align:center;
+    box-sizing:border-box;
+}
+
+/* Amazon Guide Cards */
+
+#guides div[style*="display:flex"]{
+    flex-direction:column !important;
+    align-items:center;
+}
+
+#guides div[style*="max-width:340px"]{
+    width:100% !important;
+    max-width:100% !important;
+}
+}
