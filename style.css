@@ -328,3 +328,15 @@ footer{
 .top-btn:hover{
     background:#7dd3fc;
 }
+
+.book-cover{
+    width:100%;
+    border-radius:8px;
+    margin-bottom:20px;
+    transition:transform .3s ease, box-shadow .3s ease;
+}
+
+.book-cover:hover{
+    transform:scale(1.05);
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
